@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(cfac)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(cfac cfac.cpp ClonesF.cpp)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -Wall -g -pedantic -pedantic-errors -Wextra")

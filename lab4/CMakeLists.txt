@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(ftest)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(ftest ftest.cpp num.cpp )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -Wall -g -pedantic -pedantic-errors -Wextra")
